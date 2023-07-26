@@ -2,48 +2,30 @@
 layout: compress
 ---
 
-<!DOCTYPE html>
-<html>
-{% include head.html %}
+{% include base_path %}
 
-<body>
-   <div class="container">
-       
-    {% include sidebar.html %}
+<!doctype html>
+<html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
+  <head>
+    {% include head.html %}
+    {% include head/custom.html %}
+  </head>
 
-    <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->   
-        <div id="main">
+  <body>
 
-             {% include header.html %}
-                    <div class="page-content">
-                        <div class="wrapper">
-                            {{ content }}
-                        </div>
-                    {% include footer.html %}
-                    </div>
-                {% if site.analytics %}
-                    {% include analytics.html %}
-                {% endif %}  
-        </div>
-        
-        
-        
-        
-        
-<script>
-    /* Set the width of the side navigation to 250px */
-    function openNav() {
-    document.getElementById("mySidenav").style.width = "250px";
-    }
+    {% include browser-upgrade.html %}
+    {% include masthead.html %}
 
-    /* Set the width of the side navigation to 0 */
-    function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
-    }
-</script>
-        
-        
-</div>            
-        
-</body>
+    {{ content }}
+
+    <div class="page__footer">
+      <footer>
+        {% include footer/custom.html %}
+        {% include footer.html %}
+      </footer>
+    </div>
+
+    {% include scripts.html %}
+
+  </body>
 </html>
