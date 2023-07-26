@@ -57,7 +57,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               : &CRYL
 facebook:
   username               :
   app_id                 :
@@ -80,12 +80,12 @@ analytics:
 
 # Site Author
 author:
-  name             : "Ranyiliu Chen (陈然一鎏)"
+  name             : "Ranyiliu Chen\\陈然一鎏"
   avatar           : "Ranyiliu-Chen-800x600.jpg"
   bio              : "A qunatum info person"
   location         : "Copenhagen"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           :
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=XquZL9gAAAAJ"
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
