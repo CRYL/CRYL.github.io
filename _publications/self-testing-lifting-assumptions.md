@@ -5,8 +5,8 @@ permalink: /publication/self-testing-lifting-assumptions
 excerpt: 'We can lift full-rank and projective assumptions in most cases.'
 date: 2023-09-09
 venue: 'arXiv'
-paperurl: ''
-citation: 'coming soon'
+paperurl:
+citation:
 ---
 We can lift full-rank and projective assumptions in most cases.
 

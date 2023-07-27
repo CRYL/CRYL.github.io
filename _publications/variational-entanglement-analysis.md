@@ -6,7 +6,7 @@ excerpt: 'Variational method for entanglement analysis'
 date: 2021-09-22
 venue: 'Phys. Rev. Applied'
 paperurl: 'https://journals.aps.org/prapplied/accepted/6e076A7dMc617c09c386393282878ffba4dd7104b'
-citation: 'Chen, R., Song, Z., Zhao, X., and Wang, X., "Variational quantum algorithms for trace distance and fidelity estimation" <i>Quantum Sci. Technol<i>. 7 015019, 2021'
+citation:
 ---
 
 This work is done when I was a research intern in [IQC, Baidu Research](https://quantum.baidu.com/about).
