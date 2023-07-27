@@ -13,12 +13,12 @@ Education
 ======
 * B.S. in Beijing, Beihang University, 2017
 * M.S. in Beijing, Beihang University, 2020
-* Ph.D in Copenhagen, University of Copenhagen, 2024 (expected)
+* Ph.D in Copenhagen, [QMATH](https://qmath.ku.dk), University of Copenhagen, 2024 (expected)
 
 Work experience
 ======
 * 2020 - 2021: Research Intern
-  * Institute for quantum computation, Baidu Research
+  * [IQC, Baidu Research](https://quantum.baidu.com/about)
   * Duties included: R&D
   * Supervisor: Xin Wang
 
@@ -42,4 +42,4 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Currently organizing a [Non-local game seminar](https://sites.google.com/view/non-local-games/home).
