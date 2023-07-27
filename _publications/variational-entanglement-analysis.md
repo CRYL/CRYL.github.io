@@ -9,12 +9,10 @@ paperurl: 'https://journals.aps.org/prapplied/accepted/6e076A7dMc617c09c38639328
 citation:
 ---
 
-This work is done when I was a research intern in [IQC, Baidu Research](https://quantum.baidu.com/about).
+This work was done when I was a research intern in [IQC, Baidu Research](https://quantum.baidu.com/about).
 
 We use variational method to estimate Schmidt decomposition, and the seperability of mixed states.
 
 [Download paper here](https://arxiv.org/abs/2109.10785)
 
-To be published in Phys. Rev. Applied.
-
-Recommended citation: Chen, R., Zhao, B., Wang, X., "Near-term Efficient Quantum Algorithms for Entanglement Analysis" <i>Phys. Rev. Applied<i>. ??, 2023.
+Citation: Chen, R., Zhao, B., Wang, X., "Near-term Efficient Quantum Algorithms for Entanglement Analysis" <i>Phys. Rev. Applied<i>. ??, 2023.
