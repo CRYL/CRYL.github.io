@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "CHEN"
 title_separator          : "-"
 name                     : &name "Ranyiliu Chen"
-description              : &description "a quantum info person"
+description              : &description "PhD sutdent in quantum info"
 url                      : https://cryl.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "CRYL/CRYL.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Ranyiliu Chen\n陈然一鎏"
   avatar           : "Ranyiliu-Chen-800x600.jpg"
-  bio              : "A qunatum info person"
+  bio              : "PhD sutdent in quantum info"
   location         : "Copenhagen"
   employer         :
   pubmed           :
