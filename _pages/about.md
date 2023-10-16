@@ -10,4 +10,6 @@ redirect_from:
 
 This is Ranyiliu Chen(陈然一鎏)'s homepage on the web!
 
-I am a PhD student at QMATH, Department of Mathematical Sciences, University of Copenhageen. I am working on entanglement, "the spooky action at a distance", in the context of self-testing and non-local games.
+I am a PhD student at QMATH, Department of Mathematical Sciences, University of Copenhageen. I currently am working on entanglement, "the spooky action at a distance", in the context of self-testing and non-local games. But I am also curious about general stuffs in quantum info.
+
+Please feel free to call me Chen :)
