@@ -6,7 +6,7 @@ tags:
   - entanglement
 ---
 
-We show that there is some entanglement witness that cannot witness any
+We show that there is some entangled states that are far from any separable and maximally entangled states. As a consequence, there exists entanglement witness that cannot witness any
 maximally entangled states. At the first sight it seems to be the
 opposite: the maximally entangled states contains the 'most'
 entanglement in some sense, so at least one of them should be detected
@@ -31,14 +31,14 @@ is finite-dimensional, its convex hull is also compact, thus closed.
 $\blacksquare$
 
 We can also show that any partially entangled pure state
-$\sigma=| \psi\rangle\!\langle \psi |, \ket{\psi}\notin\operatorname{MAXE}$
+$\sigma=| \psi\rangle\langle \psi |, |\psi\rangle\notin\operatorname{MAXE}$
 is not in the convex hull: note that $\sigma$ is an extreme point in the
 set of all density matrices. Suppose for contradiction that
 $\sigma\in\operatorname{cov}\{\operatorname{MAXE}\cup\operatorname{SEP}\}$,
 then it must be also extreme in
 $\operatorname{cov}\{\operatorname{MAXE}\cup\operatorname{SEP}\}$. So it
-must be either maximally entangled $\ket{\psi}\in\operatorname{MAXE}$ or
-separable $\ket{\psi}=\ket{\psi}_A\otimes\ket{\psi}_B$, a contradiction.
+must be either maximally entangled $|\psi\rangle\in\operatorname{MAXE}$ or
+separable $|\psi\rangle=|\psi\rangle_A\otimes|\psi\rangle_B$, a contradiction.
 
 So we have a closed convex set
 $\operatorname{cov}\{\operatorname{MAXE}\cup\operatorname{SEP}\}$, and a
