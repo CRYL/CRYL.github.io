@@ -40,6 +40,9 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
+Service
 ======
+
 * Currently organizing a [Non-local game seminar](https://sites.google.com/view/non-local-games/home).
+
+* Sub-viewer of many things
