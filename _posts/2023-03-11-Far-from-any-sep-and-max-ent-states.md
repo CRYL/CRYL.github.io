@@ -17,11 +17,11 @@ $\operatorname{SEP}$ be the set of separable states. We first show that
 the convex hull of $\operatorname{MAXE}\cup\operatorname{SEP}$ is
 closed.
 
-The convex hull $$\begin{aligned}
-    \operatorname{cov}\{\operatorname{MAXE}\cup\operatorname{SEP}\}:=\{\rho|\rho=\sum_jp_j\rho_j,\rho_j\in\operatorname{MAXE}\cup\operatorname{SEP},p_j\ge0,\sum_jp_j=1\}\end{aligned}$$
+**Lemma** The convex hull $$
+    \operatorname{cov}\{\operatorname{MAXE}\cup\operatorname{SEP}\}:=\{\rho|\rho=\sum_jp_j\rho_j,\rho_j\in\operatorname{MAXE}\cup\operatorname{SEP},p_j\ge0,\sum_jp_j=1\}$$
 is closed.
 
-**Proof ** Note that $\operatorname{MAXE}$ is an orbit of the group
+**Proof** Note that $\operatorname{MAXE}$ is an orbit of the group
 action the unitary group $U(d)$ which is compact, so
 $\operatorname{MAXE}$ is compact. It is well-known that
 $\operatorname{SEP}$ is compact. Therefore
