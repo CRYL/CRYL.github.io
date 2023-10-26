@@ -4,8 +4,8 @@ collection: publications
 permalink: /publication/self-testing-lifting-assumptions
 excerpt: 'We can lift full-rank and projective assumptions in self-testing.'
 date: 2023-10-19
-venue: 'arXiv'
-paperurl:
+venue: 'arXiv preprint'
+paperurl: 'https://arxiv.org/abs/2310.12662'
 citation:
 ---
 
