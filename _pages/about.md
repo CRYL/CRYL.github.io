@@ -20,4 +20,4 @@ BTW, Please feel free to call me Chen :)
 
 ## News
 
-- If you are interested in our [non-local game seminar](https://sites.google.com/view/non-local-games?usp=sharing), feel free to ask me to to you in the mail list!
+- If you are interested in our [non-local game seminar](https://sites.google.com/view/non-local-games?usp=sharing), feel free to ask me to add you in the mail list!
