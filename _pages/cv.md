@@ -12,8 +12,8 @@ redirect_from:
 Education
 ======
 * B.S. in Beijing, Beihang University, 2017
-* M.S. in Beijing, Beihang University, 2020. Supervisor: Prof. [Tao Shang(尚涛)](https://cst.buaa.edu.cn/info/1111/2767.htm)
-* Ph.D in Copenhagen, [QMATH](https://qmath.ku.dk), University of Copenhagen, 2024 (expected). Supervisor: Prof. [Laura Mančinska](https://www.math.ku.dk/english/staff/?pure=en/persons/604782) at [QMATH](https://qmath.ku.dk)
+* M.S. in Beijing, Beihang University, 2020. Supervisor: Prof. [Tao Shang](https://cst.buaa.edu.cn/info/1111/2767.htm)
+* Ph.D in Copenhagen, [QMATH](https://qmath.ku.dk), University of Copenhagen, 2024 (expected). Supervisor: Prof. [Laura Mančinska](https://www.math.ku.dk/english/staff/?pure=en/persons/604782)
 
 Work experience
 ======
