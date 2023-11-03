@@ -12,15 +12,15 @@ redirect_from:
 Education
 ======
 * B.S. in Beijing, Beihang University, 2017
-* M.S. in Beijing, Beihang University, 2020
-* Ph.D in Copenhagen, [QMATH](https://qmath.ku.dk), University of Copenhagen, 2024 (expected)
+* M.S. in Beijing, Beihang University, 2020. Supervisor: Prof. [Tao Shang(尚涛)](https://cst.buaa.edu.cn/info/1111/2767.htm)
+* Ph.D in Copenhagen, [QMATH](https://qmath.ku.dk), University of Copenhagen, 2024 (expected). Supervisor: Prof. [Laura Mančinska](https://www.math.ku.dk/english/staff/?pure=en/persons/604782) at [QMATH](https://qmath.ku.dk)
 
 Work experience
 ======
 * 2020 - 2021: Research Intern
   * [IQC, Baidu Research](https://quantum.baidu.com/about)
-  * Duties included: R&D
-  * Supervisor: Xin Wang
+  * Duties included: R&D. Contributed to [Paddle Quantum](https://qml.baidu.com) and [QAPP](https://quantum-hub.baidu.com/qapp/tutorial-overview)
+  * Supervisor: [Xin Wang](https://www.xinwang.info)
 
 Publications
 ======
@@ -43,6 +43,8 @@ Teaching
 Service
 ======
 
-* Currently organizing a [Non-local game seminar](https://sites.google.com/view/non-local-games/home).
+* Organizer of [Non-local game seminar](https://sites.google.com/view/non-local-games/home).
 
-* Sub-viewer of many things
+* Chair of [QUACC 2023](https://quacc2023.cft.edu.pl/#about)
+
+* Sub-reviewer of many things
