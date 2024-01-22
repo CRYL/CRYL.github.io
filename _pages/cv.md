@@ -11,9 +11,9 @@ redirect_from:
 
 Education
 ======
-* B.S. in Beijing, Beihang University, 2017
-* M.S. in Beijing, Beihang University, 2020. Supervisor: Prof. [Tao Shang](https://cst.buaa.edu.cn/info/1111/2767.htm)
-* Ph.D in Copenhagen, [QMATH](https://qmath.ku.dk), University of Copenhagen, 2024 (expected). Supervisor: Prof. [Laura Mančinska](https://www.math.ku.dk/english/staff/?pure=en/persons/604782)
+* B.S. in Beihang University, China, 2017
+* M.S. in Beihang University, China, 2020. Supervisor: Prof. [Tao Shang](https://cst.buaa.edu.cn/info/1111/2767.htm)
+* Ph.D in [QMATH](https://qmath.ku.dk), University of Copenhagen, Denmark, 2024 (expected). Supervisor: Prof. [Laura Mančinska](https://www.math.ku.dk/english/staff/?pure=en/persons/604782)
 
 Work experience
 ======
@@ -43,8 +43,8 @@ Teaching
 Service
 ======
 
-* Organizer of [Non-local game seminar](https://sites.google.com/view/non-local-games/home).
+* Organizer of [Non-local game seminar](https://sites.google.com/view/non-local-games/home)
 
 * Chair of [QUACC 2023](https://quacc2023.cft.edu.pl/#about)
 
-* Sub-reviewer of many things
+* Reviewer/sub-reviewer of many things

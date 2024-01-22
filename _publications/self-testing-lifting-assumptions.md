@@ -1,5 +1,5 @@
 ---
-title: "Title: A mathematics foundation of self-testing: lifting common assumptions"
+title: "A mathematics foundation of self-testing: lifting common assumptions"
 collection: publications
 permalink: /publication/self-testing-lifting-assumptions
 excerpt: 'We can lift full-rank and projective assumptions in self-testing.'
