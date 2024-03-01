@@ -45,6 +45,6 @@ Service
 
 * Organizer of [Non-local game seminar](https://sites.google.com/view/non-local-games/home)
 
-* Chair of [QUACC 2023](https://quacc2023.cft.edu.pl/#about)
+<!-- * Chair of [QUACC 2023](https://quacc2023.cft.edu.pl/#about)
 
-* Reviewer/sub-reviewer of many things
+* Reviewer/sub-reviewer of many things -->
