@@ -2,7 +2,7 @@
 title: "A mathematics foundation of self-testing: lifting common assumptions"
 collection: publications
 permalink: /publication/self-testing-lifting-assumptions
-excerpt: 'We can lift full-rank and projective assumptions in self-testing.'
+excerpt: 'Pedro Baptista, Ranyiliu Chen, Jędrzej Kaniewski, David Rasmussen Lolck, Laura Mančinska, Thor Gabelgaard Nielsen, Simon Schmidt'
 date: 2025-11-09
 venue: 'Annales Henri Poincaré'
 paperurl: 'https://link.springer.com/article/10.1007/s00023-025-01642-3'

@@ -2,7 +2,7 @@
 title: "Beyond real: Investigating the role of complex numbers in self-testing"
 collection: publications
 permalink: /publication/self-testing-real-vs-complex
-excerpt: 'We investigate the realness of non-local strategies.'
+excerpt: 'Ranyiliu Chen, Laura Mančinska, Jurij Volčič'
 date: 2025-12-08
 venue: 'arXiv preprint'
 paperurl: 'https://arxiv.org/abs/2512.07160'

@@ -2,7 +2,7 @@
 title: "Quantifying Unextendibility via Virtual State Extension"
 collection: publications
 permalink: /publication/SDP-virtual-extension
-excerpt: 'Propose a new entanglement monogamy measurement'
+excerpt: 'Hongshun Yao, Jingu Xie, Xuanqiang Zhao, Chengkai Zhu, Ranyiliu Chen, Xin Wang'
 date: 2025-10-28
 venue: 'arXiv preprint (co-comm. author)'
 paperurl: 'https://arxiv.org/abs/2510.24895'

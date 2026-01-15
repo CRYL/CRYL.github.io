@@ -2,7 +2,7 @@
 title: "Maximal device-independent randomness in every dimension"
 collection: publications
 permalink: /publication/self-testing-randomness
-excerpt: 'We certify maximal randomness in every dimension.'
+excerpt: 'Máté Farkas, Jurij Volčič, Sigurd A. L. Storgaard, Ranyiliu Chen, Laura Mančinska'
 date: 2026-01-13
 venue: 'Nat. Phys.'
 paperurl: 'https://www.nature.com/articles/s41567-025-03141-y'

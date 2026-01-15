@@ -2,7 +2,7 @@
 title: "All real projective measurement can be self-tested"
 collection: publications
 permalink: /publication/self-testing-measurement
-excerpt: 'We can self-test any real projective measurement in bipartite Bell scenario.'
+excerpt: 'Ranyiliu Chen, Laura Mančinska, Jurij Volčič'
 date: 2024-08-01
 venue: 'Nat. Phys.'
 paperurl: 'https://www.nature.com/articles/s41567-024-02584-z'

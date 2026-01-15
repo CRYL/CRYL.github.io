@@ -2,7 +2,7 @@
 title: "Variational quantum algorithms for trace distance and fidelity estimation"
 collection: publications
 permalink: /publication/variational-metric-estimate
-excerpt: 'Variational method for metric estimation'
+excerpt: 'Ranyiliu Chen, Zhixin Song, Xuanqiang Zhao, Xin Wang'
 date: 2021-12-22
 venue: 'Quantum Science and Technology'
 paperurl: 'https://iopscience.iop.org/article/10.1088/2058-9565/ac38ba/meta'

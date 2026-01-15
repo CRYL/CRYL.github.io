@@ -2,7 +2,7 @@
 title: "Structure, Optimality, and Symmetry in Shadow Unitary Inversion"
 collection: publications
 permalink: /publication/SDP-shadow-inversion
-excerpt: 'Use quantum comb to solve the unitary inversion problem under certain measurement'
+excerpt: 'Guocheng Zhen, Yu-Ao Chen, Mingrui Jing, Jingu Xie, Ranyiliu Chen, Xin Wang'
 date: 2025-10-28
 venue: 'arXiv preprint (co-comm. author)'
 paperurl: 'https://arxiv.org/abs/2510.24880'
