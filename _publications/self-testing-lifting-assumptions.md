@@ -3,9 +3,9 @@ title: "A mathematics foundation of self-testing: lifting common assumptions"
 collection: publications
 permalink: /publication/self-testing-lifting-assumptions
 excerpt: 'We can lift full-rank and projective assumptions in self-testing.'
-date: 2023-10-19
-venue: 'arXiv preprint'
-paperurl: 'https://arxiv.org/abs/2310.12662'
+date: 2025-11-09
+venue: 'Annales Henri Poincaré'
+paperurl: 'https://link.springer.com/article/10.1007/s00023-025-01642-3'
 citation:
 ---
 
