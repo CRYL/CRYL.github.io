@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-04-30T04:23:07+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">CHEN</title><subtitle>Researcher in quantum info</subtitle><author><name>Ranyiliu Chen&lt;br /&gt;陈然一鎏</name></author><entry><title type="html">A parity-dependent lowerbound</title><link href="http://localhost:4000/posts/2023/04/" rel="alternate" type="text/html" title="A parity-dependent lowerbound" /><published>2023-04-12T00:00:00+02:00</published><updated>2023-04-12T00:00:00+02:00</updated><id>http://localhost:4000/posts/2023/parity</id><content type="html" xml:base="http://localhost:4000/posts/2023/04/"><![CDATA[<p>We show that for flip operator $F$, and the family of maximally
+entangled states
+\(\operatorname{MAXE}=\{|{\Phi}\rangle||{\Phi}\rangle=\sum|{j_Aj_B}\rangle/\sqrt{d},\{|j\rangle\}\text{ is ONB}\},\)
+the range of the overlap between $F$ and $|{\Phi}\rangle$ depends on the
+parity of the dimension. Specifically,
+\(\{\langle{\Phi|F|\Phi}\rangle||{\Phi}\rangle\in\operatorname{MAXE}\}=\begin{cases}[-1,1]&amp;d=2k\\
+[-\frac{d-2}{d},1]&amp;d=2k+1\end{cases}\)</p>
+
+<p>This is odd at the first sight, because it is hard to imagine that this
+has something to do with the parity of the dimension. However the
+eigenspace of $F$ may be the reason: when $d$ is even the $+1$ and $-1$
+eigenspaces of $F$ are of the same dimension, while in the odd case $+1$
+eigenspace is one-dimensional larger. Then maybe with local unitary one
+cannot send $|{\Phi_+}\rangle$ to the $-1$ eigenspace completely.</p>
+
+<p>By direct computation one can have \(\begin{aligned}
+\langle{\Phi|F|\Phi}\rangle=&amp;\langle{\Phi_+|U^\dagger\otimes IFU\otimes I|\Phi_+}\rangle\\
+=&amp;\langle{\Phi_+|U^\dagger\otimes II\otimes U|\Phi_+}\rangle\\
+=&amp;\langle{\Phi_+|U^\dagger U^{\intercal}\otimes I|\Phi_+}\rangle=\operatorname{Tr}[U\overline{U}]/d.\end{aligned}\)</p>
+
+<p>It is clear that $\operatorname{Tr}[U\overline{U}]$ is real, and
+$U\overline{U}$ again is unitary. So
+$\operatorname{Tr}[U\overline{U}]\in[-d,d]$. By taking $U=I$ one gets
+upperbound $d$, so the question is that whether the lowerbound $-d$ can
+be obtained.</p>
+
+<p>For even $d$, it is known that there exist orthogonal matrix $M_d$ such
+that $M_d^2=-I$, by taking anti-diagonal matrix with entries $\pm1$. So
+$\operatorname{Tr}[U\overline{U}]$ can be $-d$ for even $d$. But for odd
+$d$, we can prove that</p>
+
+<p>For any unitary $U$, the spectral of $U\overline{U}$ is
+conjugate-closed: if $\lambda$ is an eigenvalue of $U\overline{U}$, then
+$\overline{\lambda}$ is also an eigenvalue of $U\overline{U}$.</p>
+
+<p>This is because the coefficients of the characterization polynomial of
+$A$ is in polynomial of $\operatorname{Tr}[A^{j}]$, which is real for
+any $A=U\overline{U}$. Then the characterization polynomial has real
+coefficients, so eigenvalues come in pair.</p>
+
+<p>This lemma implies nothing in the even case, but for odd $d$, it
+immediately implies that one of the eigenvalues of $U\overline{U}$ is
+$\pm1$. And note that $\det(U\overline{U})=\det(U)\overline{\det(U)}$ is
+positive, that eigenvalue must be $1$. So $U\overline{U}=1\oplus W$ for
+some $d-1$ dimensional unitary $W$, which has trace at least $-(d-1)$.
+So $\operatorname{Tr}[U\overline{U}]=1+\operatorname{Tr}[W]\ge-d+2$.
+This new bound can be obtained simply by taking $U=1\oplus O$ where
+$O^2=-I$ is a $d-1$ dimensional orthogonal matrix.</p>
+
+<h1 id="acknowledgement">Acknowledgement</h1>
+
+<p>We thank Kean Chen and Jurij Volcic for valuable discussion.</p>]]></content><author><name>Ranyiliu Chen&lt;br /&gt;陈然一鎏</name></author><category term="entanglement" /><summary type="html"><![CDATA[We show that for flip operator $F$, and the family of maximally entangled states \(\operatorname{MAXE}=\{|{\Phi}\rangle||{\Phi}\rangle=\sum|{j_Aj_B}\rangle/\sqrt{d},\{|j\rangle\}\text{ is ONB}\},\) the range of the overlap between $F$ and $|{\Phi}\rangle$ depends on the parity of the dimension. Specifically, \(\{\langle{\Phi|F|\Phi}\rangle||{\Phi}\rangle\in\operatorname{MAXE}\}=\begin{cases}[-1,1]&amp;d=2k\\ [-\frac{d-2}{d},1]&amp;d=2k+1\end{cases}\)]]></summary></entry><entry><title type="html">Far from any separable and maximally entangled states</title><link href="http://localhost:4000/posts/2023/03/" rel="alternate" type="text/html" title="Far from any separable and maximally entangled states" /><published>2023-03-11T00:00:00+01:00</published><updated>2023-03-11T00:00:00+01:00</updated><id>http://localhost:4000/posts/2023/Far-from-any-sep-and-max-ent-states</id><content type="html" xml:base="http://localhost:4000/posts/2023/03/"><![CDATA[<p>We show that there is some entangled states that are far from any separable and maximally entangled states. As a consequence, there exists entanglement witness that cannot witness any
+maximally entangled states. At the first sight it seems to be the
+opposite: the maximally entangled states contains the ‘most’
+entanglement in some sense, so at least one of them should be detected
+by a fixed entanglement witness. Unfortunately it does not hold.</p>
+
+<p>Let $\operatorname{MAXE}$ be the set of all maximally entangled state,
+$\operatorname{SEP}$ be the set of separable states. We first show that
+the convex hull of $\operatorname{MAXE}\cup\operatorname{SEP}$ is
+closed.</p>
+
+<p><strong>Lemma</strong> The convex hull \(\operatorname{cov}\{\operatorname{MAXE}\cup\operatorname{SEP}\}:=\{\rho|\rho=\sum_jp_j\rho_j,\rho_j\in\operatorname{MAXE}\cup\operatorname{SEP},p_j\ge0,\sum_jp_j=1\}\)
+is closed.</p>
+
+<p><strong>Proof</strong> Note that $\operatorname{MAXE}$ is an orbit of the group
+action the unitary group $U(d)$ which is compact, so
+$\operatorname{MAXE}$ is compact. It is well-known that
+$\operatorname{SEP}$ is compact. Therefore
+$\operatorname{MAXE}\cup\operatorname{SEP}$ is compact. Since
+$\operatorname{MAXE}\cup\operatorname{SEP}\subseteq\mathcal{B}(\mathbb{C}^d\otimes\mathbb{C}^d)$
+is finite-dimensional, its convex hull is also compact, thus closed.
+$\blacksquare$</p>
+
+<p>We can also show that any partially entangled pure state
+$\sigma=| \psi\rangle\langle \psi |, |\psi\rangle\notin\operatorname{MAXE}$
+is not in the convex hull: note that $\sigma$ is an extreme point in the
+set of all density matrices. Suppose for contradiction that
+$\sigma\in\operatorname{cov}{\operatorname{MAXE}\cup\operatorname{SEP}}$,
+then it must be also extreme in
+$\operatorname{cov}{\operatorname{MAXE}\cup\operatorname{SEP}}$. So it
+must be either maximally entangled $|\psi\rangle\in\operatorname{MAXE}$ or
+separable $|\psi\rangle=|\psi\rangle_A\otimes|\psi\rangle_B$, a contradiction.</p>
+
+<p>So we have a closed convex set
+$\operatorname{cov}{\operatorname{MAXE}\cup\operatorname{SEP}}$, and a
+point $\sigma$ which is not in the set. By Hahn–Banach theorem, there
+is a linear functional denoted by hermitian operator $H$ such that
+$\operatorname{Tr}[H\sigma]&lt;0$ and $\operatorname{Tr}[H\rho]\ge0$ for
+all
+$\rho\in\operatorname{cov}{\operatorname{MAXE}\cup\operatorname{SEP}}$.
+Obviously
+$\operatorname{SEP}\subseteq\operatorname{cov}{\operatorname{MAXE}\cup\operatorname{SEP}}$,
+so $H$ separates $\operatorname{SEP}$ and $\sigma$, therefore is an
+entanglement witness. Also,
+$\operatorname{MAXE}\subseteq\operatorname{cov}{\operatorname{MAXE}\cup\operatorname{SEP}}$,
+so $H$ cannot witness any maximally entangled states.</p>
+
+<h1 id="acknowledgement-acknowledgement-unnumbered">Acknowledgement {#acknowledgement .unnumbered}</h1>
+
+<p>We thank Marek Miller for valuable discussion.</p>]]></content><author><name>Ranyiliu Chen&lt;br /&gt;陈然一鎏</name></author><category term="entanglement" /><summary type="html"><![CDATA[We show that there is some entangled states that are far from any separable and maximally entangled states. As a consequence, there exists entanglement witness that cannot witness any maximally entangled states. At the first sight it seems to be the opposite: the maximally entangled states contains the ‘most’ entanglement in some sense, so at least one of them should be detected by a fixed entanglement witness. Unfortunately it does not hold.]]></summary></entry></feed>
