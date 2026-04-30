@@ -131,68 +131,54 @@ permalink: /wedding/
         }
 
         /* -------------------------------------
-           折线彩蛋长串特效 (Zigzag Easter Eggs)
+           横向彩蛋链条特效 (Horizontal Garland)
            ------------------------------------- */
-        .easter-egg-string {
-            position: absolute;
+        .horizontal-garland {
             top: 0;
+            left: 0;
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly; /* 自动把挂坠在屏幕上等距排开 */
+            align-items: flex-start;
             z-index: 100;
-            opacity: 0.35; /* 默认半透明隐藏 */
+            opacity: 0.35;
             transition: opacity 0.5s ease;
+            
+            /* 顶部的主横线（模拟挂绳的承重线） */
+            border-top: 1px solid rgba(123, 159, 182, 0.4); 
+            pointer-events: none; /* 让主体不阻挡页面点击 */
         }
 
-        /* 鼠标移入整条线时，点亮彩蛋 */
-        .easter-egg-string:hover {
+        .horizontal-garland:hover {
             opacity: 1;
         }
 
-        .left-string { left: 6%; }
-        .right-string { right: 6%; }
-
-        /* 每一节绳索的容器：负责倾斜 */
-        .segment {
+        .hanging-charm {
             display: flex;
             flex-direction: column;
             align-items: center;
+            pointer-events: auto; /* 让挂坠本身可以被悬停和点击 */
             transform-origin: top center;
-            /* 读取行内写入的倾斜角度 */
-            transform: rotate(var(--angle, 0deg));
+            animation: gentleSway 5s ease-in-out infinite;
         }
 
-        /* 绳子本体 */
-        .thread-line {
+        /* 错开摇摆频率，让它看起来像被风自然吹拂，而不是死板地一起晃 */
+        .hanging-charm:nth-child(even) {
+            animation-duration: 7s;
+            animation-delay: -2s;
+        }
+
+        .hanging-charm .thread-line {
             width: 1px;
-            /* 读取行内写入的长度，并乘以手机端缩放比例 */
-            height: calc(var(--len, 100px) * var(--string-scale));
+            /* 读取你在 HTML 里设置的长度，如果没有设置就默认 40px */
+            height: var(--drop, 40px); 
             background-color: var(--primary-blue);
             opacity: 0.6;
         }
-        
-        /* 挂坠节点：负责【反向旋转】，确保挂坠和下一节绳子永远保持绝对垂直，从而形成完美的折线 */
-        .node {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            /* 🚀 核心修复1：必须将旋转轴心固定在最顶部中心（即上一根线的末端），防止旋转时发生错位 */
-            transform-origin: top center;
-            transform: rotate(calc(-1 * var(--angle, 0deg)));
-            position: relative; /* 为内部绝对定位提供基准 */
-        }
 
-        .charm-wrapper {
+        .hanging-charm .charm {
             width: 28px;
             height: 28px;
-            /* 🚀 核心修复2：使用绝对定位脱离文档流，让上下两根线直接对接交汇在一点，挂坠精准覆盖在交汇点上 */
-            position: absolute;
-            top: 0;
-            left: 50%;
-            transform: translate(-50%, -50%); 
-            z-index: 2;
-        }
-
-        .charm {
-            position: absolute;
-            top: 0; left: 0; right: 0; bottom: 0;
             border-radius: 50%;
             background-color: var(--card-bg);
             border: 1px solid rgba(123, 159, 182, 0.4);
@@ -205,13 +191,31 @@ permalink: /wedding/
             transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.3s ease;
         }
 
-        .charm:hover {
+        .hanging-charm .charm:hover {
             transform: scale(1.7);
             border-color: var(--primary-blue);
             z-index: 10;
         }
+        
+        .hanging-charm .charm img {
+            width: 75%; height: 75%; object-fit: contain;
+        }
 
-        .charm img { width: 75%; height: 75%; object-fit: contain; }
+        /* 极其轻柔的钟摆动画 */
+        @keyframes gentleSway {
+            0% { transform: rotate(-4deg); }
+            50% { transform: rotate(4deg); }
+            100% { transform: rotate(-4deg); }
+        }
+
+        /* 手机端适配：整体缩小 */
+        @media (max-width: 768px) {
+            .hanging-charm {
+                transform: scale(0.85); /* 手机上整体等比缩小 85% */
+                transform-origin: top center;
+            }
+        }
+
 
         /* -------------------------------------
            核心图文融合排版区
@@ -274,7 +278,7 @@ permalink: /wedding/
             align-items: center;
             width: 100%; /* 核心：撑满容器，与上下 Block 左右完美对齐 */
             gap: 40px;   /* 两张巨幅照片中间留出呼吸间隙，不至于太挤 */
-            margin-top: -20px; 
+            margin-top: -40px; 
             margin-bottom: 70px; 
         }
 
@@ -335,7 +339,7 @@ permalink: /wedding/
             width: 100%;
             /* 电影级超宽比例 (横屏视觉享受) */
             aspect-ratio: 21 / 9; 
-            margin-bottom: 100px; /* 和上下区块保持相同的呼吸间距 */
+            margin-bottom: 20px; /* 和上下区块保持相同的呼吸间距 */
             border-radius: 16px;
             overflow: hidden;
             box-shadow: 0 15px 35px rgba(44, 66, 81, 0.08);
@@ -357,7 +361,6 @@ permalink: /wedding/
         /* 手机端适配：屏幕变窄时，防止图片太扁看不清人，将比例切回经典的 16:9 */
         @media (max-width: 768px) {
             .transition-banner {
-                aspect-ratio: 16 / 9; 
                 margin-bottom: 60px;
                 border-radius: 12px;
             }
@@ -482,8 +485,15 @@ permalink: /wedding/
                 -webkit-mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
                 mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
             }
-            .hero-section { padding: 40px 20px; }
-            h1 { font-size: 2.8rem; }
+            .hero-section { 
+                /* 稍微减小手机端的左边距，把空间还给名字 */
+                padding: 40px 15px 40px 30px; 
+                box-sizing: border-box;
+            }
+            h1 { 
+                font-size: 1.8rem; /* 缩小手机端字号 */
+                white-space: nowrap; /* 🚀 核心魔法：强制文字绝对不换行 */
+            }
             .slide-left { transform: translateX(-30px); }
             .slide-right { transform: translateX(30px); }
         }
@@ -491,65 +501,7 @@ permalink: /wedding/
 </head>
 <body>
 
-    <!-- ⬇️ 左侧彩蛋串 (Zigzag 设计) -->
-    <div class="easter-egg-string left-string">
-        <!-- 第1节：向左偏 12度，长 140px -->
-        <div class="segment" style="--angle: 8deg; --len: 140px;">
-            <div class="thread-line"></div>
-            <div class="node">
-                <div class="charm-wrapper">
-                    <div class="charm" title="Go Spurs Go">
-                        <img src="spurs.png" style="transform: scale(1.4)">
-                    </div>
-                </div>
-                <div class="segment" style="--angle: -8deg; --len: 140px;">
-                    <div class="thread-line"></div>
-                    <div class="node">
-                        <div class="charm-wrapper">
-                            <div class="charm" title="Excalibur!">
-                                <img src="saber.png" style="transform: scale(1.8) translateY(1.5px)">
-                            </div>
-                        </div>
-                        <div class="segment" style="--angle: 8deg; --len: 140px;">
-                            <div class="thread-line"></div>
-                            <div class="node">
-                                <div class="charm-wrapper">
-                                    <div class="charm" title="Superposition">
-                                        <img src="qubit.png">
-                                    </div>
-                                </div>
-                                <div class="segment" style="--angle: -8deg; --len: 140px;">
-                                    <div class="thread-line"></div>
-                                    <div class="node">
-                                        <div class="charm-wrapper">
-                                            <div class="charm" title="Kaka!">
-                                                <img src="regent.png" style="transform: scale(1.8) translateY(2px) translateX(1px)">
-                                            </div>
-                                        </div>
-                                        <div class="segment" style="--angle: 8deg; --len: 140px;">
-                                            <div class="thread-line"></div>
-                                            <div class="node">
-                                                <div class="charm-wrapper">
-                                                    <div class="charm" title="Love you 3000">
-                                                        <img src="iron.png" style="transform: scale(1.8)">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
     <div class="container">
-
-        
         <div class="hero-section">
             <div class="subtitle">Wedding Invitation</div>
             <!-- 花体与宋体混排：英文及符号将呈现浪漫连笔，中文自动呈现端庄宋体 -->
@@ -757,8 +709,34 @@ permalink: /wedding/
             <!-- 替换成你们欧洲游山玩水的横版风景照 / 牵手背影照 -->
             <img src="a50.jpg" alt="European Journey" style="object-position: center center;">
         </div>
-
     </div>
+
+
+    <!-- ⬇️ 顶部横向彩蛋链条 (Horizontal Garland) ⬇️ -->
+    <div class="horizontal-garland">
+        <!-- 通过 --drop 随意控制每根线垂下来的长度，长短错落才好看 -->
+        <div class="hanging-charm" style="--drop: 40px;">
+            <div class="thread-line"></div>
+            <div class="charm" title="Spurs"><img src="spurs.png" style="transform: scale(1.4)"></div>
+        </div>
+        <div class="hanging-charm" style="--drop: 80px;">
+            <div class="thread-line"></div>
+            <div class="charm" title="Excalibur"><img src="saber.png" style="transform: scale(1.8) translateY(1.5px)"></div>
+        </div>
+        <div class="hanging-charm" style="--drop: 30px;">
+            <div class="thread-line"></div>
+            <div class="charm" title="Superposition"><img src="qubit.png"></div>
+        </div>
+        <div class="hanging-charm" style="--drop: 60px;">
+            <div class="thread-line"></div>
+            <div class="charm" title="Kaka"> <img src="regent.png" style="transform: scale(1.8) translateY(2px) translateX(1px)"></div>
+        </div>
+        <div class="hanging-charm" style="--drop: 45px;">
+            <div class="thread-line"></div>
+            <div class="charm" title="I am ..."><img src="iron.png" style="transform: scale(1.8)"></div>
+        </div>
+    </div>
+
 
     <!-- 滚动监听脚本 -->
     <script>
