@@ -53,21 +53,6 @@ permalink: /wedding/
             padding: 60px 20px;
         }
 
-        /* 顶部首屏卡片 */
-        .hero-section {
-            /* 晨雾微光高级渐变 */
-            background: linear-gradient(135deg, #ffffff 0%, #f0f4f7 45%, #dfe8f0 100%);
-            padding: 60px 40px;
-            text-align: center;
-            border-radius: 12px;
-            box-shadow: 0 15px 35px rgba(44, 66, 81, 0.08);
-            border: 1px solid rgba(255, 255, 255, 0.8);
-            margin-bottom: 80px;
-            animation: fadeInTop 1.2s cubic-bezier(0.2, 0.8, 0.2, 1);
-            position: relative;
-            z-index: 10;
-        }
-
         /* -------------------------------------
            顶部首屏大卡片 (Hero Section 换成照片背景)
            ------------------------------------- */
@@ -82,8 +67,11 @@ permalink: /wedding/
             background-position: 20% 0%; /* 调整照片显示的位置，30%是稍微偏上一点，避免人脸被切掉 */
             background-repeat: no-repeat;
             
-            /* 稍微加大了上下内边距，让背景图露出更多，更有大片感 */
-            padding: 80px 40px; 
+            padding: 80px 20px 80px 20px; /* 把左边距加大到160px，把文字往右挤 */
+            
+            /* 🚀 2. 必须加上这行：确保加了边距后，外层卡片不会被撑变形 */
+            box-sizing: border-box; 
+
             text-align: center;
             border-radius: 12px;
             box-shadow: 0 15px 35px rgba(44, 66, 81, 0.08);
