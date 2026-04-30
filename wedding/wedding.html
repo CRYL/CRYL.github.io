@@ -60,7 +60,7 @@ permalink: /wedding/
             /* 🚀 核心魔法：上面是一层半透明白色渐变蒙版，下面是你们的照片 */
             /* rgba(255,255,255, 0.5) 代表 50% 的白色透明度，你可以根据照片深浅自行修改 0.5 这个数字 */
             background: 
-                linear-gradient(to bottom, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0.95) 100%),
+                linear-gradient(to bottom, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.85) 100%),
                 url('a41.jpg'); /* 把这里的链接换成你们合照的路径 */
             
             background-size: cover; /* 让照片完美填满整个卡片 */
@@ -350,10 +350,10 @@ permalink: /wedding/
         @media (max-width: 768px) {
             .transition-gallery {
                 gap: 15px; 
-                margin-top: -10px;
-                margin-bottom: 40px;
+                margin-top: -70px;
+                margin-bottom: 90px;
             }
-            .transition-gallery .photo-item:nth-child(1) { transform: translateY(-15px); }
+            .transition-gallery .photo-item:nth-child(1) { transform: translateY(15px); }
             .transition-gallery .photo-item:nth-child(2) { transform: translateY(15px); }
         }
 
@@ -514,8 +514,8 @@ permalink: /wedding/
                 /* 稍微减小手机端的左边距，把空间还给名字 */
                 padding: 40px 0px 40px 0px; 
                 box-sizing: border-box;
-                margin-bottom: 20px;
-                margin-top: 20px;
+                margin-bottom: 30px;
+                margin-top: -55px;
             }
             h1 { 
                 font-size: 1.8rem; /* 缩小手机端字号 */
@@ -527,6 +527,9 @@ permalink: /wedding/
     </style>
 </head>
 <body>
+
+    <div style="margin: 0 auto; width: 0px; height: 0px; overflow: hidden; position: absolute; z-index: -1;">
+        <img src="cover.png" width="400" height="400" alt="微信分享封面"></div>
 
     <audio id="bg-music" loop preload="auto">
         <!-- 把这里的 src 换成你 mp3 文件的实际路径 -->
@@ -547,24 +550,23 @@ permalink: /wedding/
 
         <div class="content-block">
             <div class="image-box slide-left">
-                <img src="a3.jpg" alt="Our Story">
+                <img src="a39.jpg" alt="Our Story">
             </div>
             <div class="text-box slide-right delay">
                 <h2>Our Story</h2>
                 <p>
                     故事的序章，写在北航的校园。<br>
                     是性格的天然互补，是灵魂的同频共振,<br>
-                    毕业后的重逢，让原本平行的两道轨迹终将交汇。<br>
+                    毕业后的重逢，让原本平行的两道轨迹交汇。<br>
                     我们品读着同样的文字，我们笃定着共同的信仰，我们决定携手缔造同心同行的未来。<br>
                 </p>
             </div>
         </div>
-
         <!-- ⬇️ 新增的双竖图过渡容器 ⬇️ -->
         <div class="transition-gallery fade-up">
             <!-- 左侧照片：会自动向上错开 -->
             <div class="photo-item">
-                <img src="a39.jpg" alt="Gallery Photo 1" style="object-position: center 20%;">
+                <img src="a3.jpg" alt="Gallery Photo 1" style="object-position: center 20%;">
             </div>
             <!-- 右侧照片：会自动向下错开 -->
             <div class="photo-item">
@@ -572,19 +574,19 @@ permalink: /wedding/
             </div>
         </div>
 
-        <div class="content-block">
+
+        <div class="content-block reverse">
             <div class="image-box slide-right">
-                <img src="a23.jpg" alt="Date">
+                <img src="a20.jpg" alt="Date">
             </div>
             <div class="text-box slide-left delay">
-                <h2>Love Journey</h2>
+                <h2>The Serendipity</h2>
                 <p>
                     于是，我们走过了陶然亭的夏日荫浓，走过了天坛的古柏凝霜，走过了长安街的华灯星河，走过了红墙黛瓦下的岁岁寻常。<br>
                     一载春秋流转，即便只经历了一个四季，却也在对方身上看到了属于我们的永恒。
                 </p>
             </div>
         </div>
-
         <!-- ⬇️ 新增的双竖图过渡容器 ⬇️ -->
         <div class="transition-gallery fade-up">
             <!-- 左侧照片：会自动向上错开 -->
@@ -593,16 +595,16 @@ permalink: /wedding/
             </div>
             <!-- 右侧照片：会自动向下错开 -->
             <div class="photo-item">
-                <img src="a20.jpg" alt="Gallery Photo 2" style="object-position: center center;">
+                <img src="a23.jpg" alt="Gallery Photo 2" style="object-position: center center;">
             </div>
         </div>
 
         <div class="content-block">
             <div class="image-box slide-left">
-                <img src="a26.jpg" alt="Date">
+                <img src="a19.jpg" alt="Date">
             </div>
             <div class="text-box slide-right delay">
-                <h2>Love Journey</h2>
+                <h2>Miles Apart</h2>
                 <p>
                     “未觉池塘春草梦，阶前梧叶已清秋。”我们迎来了将要离别的日子。<br>
                     我们不惧风雨，我们不惧异国，我们在心中欣然写下“蒲苇韧如丝，磐石无转移”的誓言，接受命运交给我们的画笔，涂抹在这个纷繁的世界最纯粹与壮丽的颜色，是9825公里的气象万千。<br>
@@ -614,7 +616,7 @@ permalink: /wedding/
         <div class="transition-gallery fade-up">
             <!-- 左侧照片：会自动向上错开 -->
             <div class="photo-item">
-                <img src="a19.jpg" alt="Gallery Photo 1" style="object-position: center 20%;">
+                <img src="a26.jpg" alt="Gallery Photo 1" style="object-position: center 20%;">
             </div>
             <!-- 右侧照片：会自动向下错开 -->
             <div class="photo-item">
@@ -627,7 +629,7 @@ permalink: /wedding/
                 <img src="a18.jpg" style="object-position: 15% center" alt="Journey">
             </div>
             <div class="text-box slide-left delay">
-                <h2>Love Journey</h2>
+                <h2>The Reunion</h2>
                 <p>
                     后来，爱情跨越了六个小时的时差与三年的山海。<br>
                     直到她飞越亚欧大陆，降落在童话之国丹麦，我们的时针才终于再次重合。<br>
@@ -635,8 +637,6 @@ permalink: /wedding/
                 </p>
             </div>
         </div>
-
-      
 
 
         <!-- ⬇️ 新增的双竖图过渡容器 ⬇️ -->
@@ -651,12 +651,12 @@ permalink: /wedding/
             </div>
         </div>
 
-        <div class="content-block reverse">
+        <div class="content-block">
             <div class="image-box slide-left">
-                <img src="a24.jpg" alt="Party">
+                <img src="a32.jpg" alt="Party">
             </div>
             <div class="text-box slide-right delay">
-                <h2>Love Journey</h2>
+                <h2>A New Chapter</h2>
                 <p>
                     用半年的时间，我们牵手走过了欧洲的山川湖海与日升月落。<br>
                     看过了安徒生故居，来过了欧洲之巅，走进了西式教堂。<br>
@@ -671,15 +671,15 @@ permalink: /wedding/
         <div class="transition-gallery fade-up">
             <!-- 左侧照片：会自动向上错开 -->
             <div class="photo-item">
-                <img src="a31.jpg" alt="Gallery Photo 1" style="object-position: center 20%;">
+                <img src="a24.jpg" alt="Gallery Photo 1" style="object-position: center 20%;">
             </div>
             <!-- 右侧照片：会自动向下错开 -->
             <div class="photo-item">
-                <img src="a32.jpg" alt="Gallery Photo 2" style="object-position: center center;">
+                <img src="a31.jpg" alt="Gallery Photo 2" style="object-position: center center;">
             </div>
         </div>
 
-        <div class="content-block">
+        <div class="content-block reverse">
             <div class="image-box slide-right">
                 <img src="a36.jpg" alt="Date">
             </div>
@@ -709,7 +709,7 @@ permalink: /wedding/
             </div>
         </div>
 
-        <div class="content-block reverse">
+        <div class="content-block">
             <div class="image-box slide-left">
                 <img src="a11.jpg" alt="Party">
             </div>
