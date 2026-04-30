@@ -143,7 +143,20 @@ permalink: /wedding/
         /* 默认/暂停状态下，停止旋转并稍微变透明 */
         .music-btn.paused {
             animation-play-state: paused;
-            opacity: 0.6;
+            opacity: 0.4;
+        }
+
+        .music-btn.paused::after {
+            content: "";
+            position: absolute;
+            width: 3px;         /* 斜杠的粗细 */
+            height: 70%;        /* 斜杠的长度，刚好覆盖音符 */
+            background-color: #C88274; /* 采用和 RSVP 按钮相同的复古赤茶色 */
+            transform: rotate(-45deg); /* 倾斜 45 度形成禁止符 */
+            border-radius: 2px;
+            /* 边缘加上一点白边（描边），让斜杠和底部的音符在视觉上彻底剥离开，极其精致 */
+            box-shadow: 0 0 0 1.5px rgba(255, 255, 255, 0.9); 
+            z-index: 2;
         }
 
         .music-btn:hover {
