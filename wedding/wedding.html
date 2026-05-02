@@ -283,6 +283,30 @@ permalink: /wedding/
         }
         .text-box b { color: var(--dark-blue); font-weight: 500; }
 
+        /* -------------------------------------
+           小巧的高德导航按钮 (Map Navigation Button)
+           ------------------------------------- */
+        .map-btn {
+            display: inline-flex;
+            align-items: center;
+            margin-top: 12px;
+            padding: 6px 16px;
+            border: 1px solid var(--primary-blue); /* 使用你主题的灰蓝色边框 */
+            border-radius: 20px;
+            color: var(--primary-blue);
+            text-decoration: none;
+            font-size: 0.9rem;
+            letter-spacing: 1px;
+            transition: all 0.3s ease;
+        }
+
+        .map-btn:hover {
+            background-color: var(--primary-blue);
+            color: var(--card-bg); /* 悬停时底色变蓝，文字变白 */
+            transform: translateY(-2px);
+            box-shadow: 0 4px 10px rgba(123, 159, 182, 0.3);
+        }
+
         .image-box {
             flex: 1.2; 
             aspect-ratio: 3/4; 
@@ -703,7 +727,10 @@ permalink: /wedding/
                     至此诚挚邀请您出席我们的婚礼，见证这段旅程的全新起点。<br><br>
 
                     <b>时间</b>：5月16日 (星期六) 中午<br>
-                    <b>地点</b>：湖南省株洲市天元区 湘水湾高尔夫球场<br><br>
+                    <b>地点</b>：湖南省株洲市天元区 湘水湾高尔夫球场<br>
+                    <a href="https://surl.amap.com/siW4Ua1j2A6" target="_blank" class="map-btn">
+                <span style="font-size: 1.1em; margin-right: 4px;">📍</span> 点击开启导航
+                    </a><br><br>
 
                     温馨提示：需要乘坐高铁赴约的亲友，请于 <b>5月2日</b> 定好闹钟，提前购买车票哦！
                 </p>
