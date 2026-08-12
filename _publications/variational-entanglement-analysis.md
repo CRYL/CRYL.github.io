@@ -3,7 +3,7 @@ title: "Near-term Efficient Quantum Algorithms for Entanglement Analysis"
 collection: publications
 permalink: /publication/variational-entanglement-analysis
 excerpt: 'Ranyiliu Chen, Benchi Zhao, Xin Wang'
-date: 2022-09-22
+date: 2023-08-29
 venue: 'Phys. Rev. Applied'
 paperurl: 'https://journals.aps.org/prapplied/accepted/6e076A7dMc617c09c386393282878ffba4dd7104b'
 citation:

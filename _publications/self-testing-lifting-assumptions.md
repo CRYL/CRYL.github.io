@@ -1,5 +1,5 @@
 ---
-title: "A mathematics foundation of self-testing: lifting common assumptions"
+title: "A mathematical foundation for self-testing: Lifting common assumptions"
 collection: publications
 permalink: /publication/self-testing-lifting-assumptions
 excerpt: 'Pedro Baptista, Ranyiliu Chen, Jędrzej Kaniewski, David Rasmussen Lolck, Laura Mančinska, Thor Gabelgaard Nielsen, Simon Schmidt'

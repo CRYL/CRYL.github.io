@@ -1,5 +1,5 @@
 ---
-title: "All real projective measurement can be self-tested"
+title: "All Real Projective Measurements Can be Self-tested"
 collection: publications
 permalink: /publication/self-testing-measurement
 excerpt: 'Ranyiliu Chen, Laura Mančinska, Jurij Volčič'
