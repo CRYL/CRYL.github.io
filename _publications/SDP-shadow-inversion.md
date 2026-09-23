@@ -2,7 +2,7 @@
 title: "Structure, Optimality, and Symmetry in Shadow Unitary Inversion"
 collection: publications
 permalink: /publication/SDP-shadow-inversion
-excerpt: 'Guocheng Zhen, Yu-Ao Chen, Mingrui Jing, Jingu Xie, Ranyiliu Chen, Xin Wang'
+excerpt: 'Guocheng Zhen, Yu-Ao Chen, Mingrui Jing, Jingu Xie, Xin Wang, Ranyiliu Chen'
 date: 2026-05-20
 venue: 'Commun. Phys. (co-comm. author)'
 paperurl: 'https://www.nature.com/articles/s42005-026-02690-9'

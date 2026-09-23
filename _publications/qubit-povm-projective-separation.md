@@ -2,7 +2,7 @@
 title: "Analytic Qubit Separation between POVMs and Projective Measurements"
 collection: publications
 permalink: /publication/qubit-povm-projective-separation
-excerpt: 'Lin Zhu, Ranyiliu Chen, Xin Wang'
+excerpt: 'Lin Zhu, Ranyiliu Chen, Xin Wang, Shenggen Zheng'
 date: 2026-08-02
 venue: 'arXiv preprint'
 paperurl: 'https://arxiv.org/abs/2608.01317'
